@@ -1,0 +1,105 @@
+// Page Sidebar
+#sidebar.page-sidebar
+   // Page Sidebar Header
+   .sidebar-header-wrapper
+      input.searchinput(type='text')
+      i.searchicon.fa.fa-search
+      .searchhelper Search Reports, Charts, Emails or Notifications
+   // /Page Sidebar Header
+   // Sidebar Menu
+   ul.nav.sidebar-menu
+      // 初始界面
+      li
+         a(href='index.html')
+            i.menu-icon.glyphicon.glyphicon-home
+            span.menu-text  初始界面
+      // 修改密码
+      li
+         a(href='databoxes.html')
+            i.menu-icon.glyphicon.glyphicon-tasks
+            span.menu-text  修改密码
+      // 游戏库
+      li
+         a.menu-dropdown(href='#')
+            i.menu-icon.fa.fa-desktop
+            span.menu-text  游戏库
+            i.menu-expand
+         ul.submenu
+            li
+               a(href='elements.html')
+                  span.menu-text 入库
+      // 我的专区
+      li
+         a.menu-dropdown(href='#')
+            i.menu-icon.fa.fa-table
+            span.menu-text  我的专区
+      // 我的文章
+      li
+         a.menu-dropdown(href='#')
+            i.menu-icon.fa.fa-pencil-square-o
+            span.menu-text  我的文章
+            i.menu-expand
+         ul.submenu
+            li
+               a(href='form-layouts.html')
+                  span.menu-text 发布文章
+            li
+               a(href='form-inputs.html')
+                  span.menu-text 发布跳转
+      // 战舰世界专区
+      li
+         a(href='profile.html')
+            i.menu-icon.glyphicon.glyphicon-link
+            span.menu-text 战舰世界专区
+      // 关键词
+      li
+         a(href='profile.html')
+            i.menu-icon.fa.fa-picture-o
+            span.menu-text 关键词
+      // TAG
+      li
+         a.menu-dropdown(href='#')
+            i.menu-icon.fa.fa-bar-chart-o
+            span.menu-text  TAG
+            i.menu-expand
+         ul.submenu
+            li
+               a(href='flot.html')
+                  span.menu-text 新建TAG
+      // 模版
+      li
+         a.menu-dropdown(href='#')
+            i.menu-icon.fa.fa-envelope-o
+            span.menu-text  模版
+            i.menu-expand
+         ul.submenu
+            li
+               a(href='inbox.html')
+                  span.menu-text 添加模版
+      // 文章回收站
+      li
+         a(href='calendar.html')
+            i.menu-icon.fa.fa-calendar
+            span.menu-text
+               | 文章回收站
+      // 模版回收站
+      li
+         a(href='calendar.html')
+            i.menu-icon.fa.fa-align-right
+            span.menu-text
+               | 模版回收站
+      // 用户管理
+      li
+         a.menu-dropdown(href='#')
+            i.menu-icon.glyphicon.glyphicon-paperclip
+            span.menu-text  用户管理
+            i.menu-expand
+         ul.submenu
+            li
+               a(href='timeline.html')
+                  span.menu-text 新建帐号
+            li
+               a(href='pricing.html')
+                  span.menu-text 专区管理
+   // /Sidebar Menu
+// /Page Sidebar
